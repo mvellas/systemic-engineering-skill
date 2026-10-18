@@ -1,0 +1,8 @@
+interface:
+  display_name: "Systemic Engineering"
+  short_description: "VFT, SSM, STPA, requirements, and delivery"
+  default_prompt: "Use $systemic-engineering to structure this project from stakeholder values through approved, traceable execution."
+
+policy:
+  allow_implicit_invocation: true
+

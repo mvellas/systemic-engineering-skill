@@ -1,0 +1,1 @@
+requirement_id,level,parent_requirement_id,statement,type,source_ids,rationale,assumptions,allocation,interfaces,verification_method,verification_criterion,validation_link,priority,risk,owner,status,constraint_class,waiver_policy,threshold_source,blocked_by,decision_ids,origin,actor,condition,action,object,constraint,refinement

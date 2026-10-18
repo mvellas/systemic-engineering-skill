@@ -1,0 +1,46 @@
+schema_version: 1
+roles:
+  orchestrator:
+    writes: ["state", "assignments"]
+    responsibility: "Sequence approved work, isolate ownership, and stop at gates."
+  researcher:
+    writes: ["evidence-packet"]
+    canonical_write: false
+    responsibility: "Gather primary evidence, counter-evidence, recency, and uncertainty."
+  executor:
+    writes: ["assigned-scope"]
+    responsibility: "Implement one bounded task and produce reproducible evidence."
+  reviewer:
+    writes: ["review-packet"]
+    canonical_write: false
+    responsibility: "Review independently against requirements, risks, and tests."
+  integrator:
+    writes: ["canonical-artifacts"]
+    responsibility: "Own overlapping writes, integration, and conflict resolution."
+  favorable_advocate:
+    writes: ["judge-packet"]
+    canonical_write: false
+    responsibility: "Steelman the proposal and name necessary success conditions."
+  adversarial_advocate:
+    writes: ["judge-packet"]
+    canonical_write: false
+    responsibility: "Find falsifiers, missing evidence, unsafe assumptions, and regressions."
+  neutral_auditor:
+    writes: ["judge-packet"]
+    canonical_write: false
+    responsibility: "Audit rubric, traceability, scope, and evidence without a preferred outcome."
+  judge:
+    writes: ["verdict"]
+    canonical_write: false
+    responsibility: "Issue criterion-level verdicts, uncertainty, dissent, and required action."
+  human_authority:
+    writes: ["approval-record"]
+    responsibility: "Approve gates and accept residual risk within actual authority."
+
+invariants:
+  - "Explorers and judge roles do not edit canonical implementation artifacts."
+  - "One integrator owns any overlapping write set."
+  - "Deterministic failures cannot be overruled by an LLM verdict."
+  - "Medium-risk requirements and later gates require an authority-registered independent reviewer."
+  - "High-risk STPA and later gates require an authority-registered domain expert."
+  - "Safety-critical STPA and later gates require both an authority-registered domain expert and safety authority."

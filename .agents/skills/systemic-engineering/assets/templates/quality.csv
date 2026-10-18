@@ -1,0 +1,1 @@
+requirement_id,scorer,e1_actor,e2_conditions,e3_action,e4_object,e5_constraints,e6_refinement_source,e7_refinement_destination,iqf1_correctness,iqf2_completeness,iqf3_consistency,iqf4_clarity,iqf5_non_ambiguity,iqf6_connectivity,iqf7_singularity,iqf8_testability,iqf9_modifiability,iqf10_feasibility,omission_ratio,notes,rewrite
