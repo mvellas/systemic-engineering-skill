@@ -1,8 +1,10 @@
 # Systemic Engineering Skill
 
+![Systemic Engineering: from vague idea to structured plan](assets/systemic-engineering-cover.png)
+
 > **EN:** An agent skill that turns an ambiguous software or systems project into traceable evidence and controlled execution: Value-Focused Thinking (VFT) → Soft Systems Methodology (SSM) → STPA (7-step LLM-assisted roadmap) → requirements scored with Halligan's quality metrics → planning artifacts, with human gates, hard/soft blockers and an audit trail. Standard-library Python only. **Version 2.1.**
 
-**Autores:** Maurício Vellasquez, Ícaro Veloso e Guilherme Thiago.
+**Autores:** Mauricio Vellasquez, Ícaro Veloso e Guilherme Thiago.
 
 ---
 
