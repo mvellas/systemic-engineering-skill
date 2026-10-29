@@ -1,8 +1,8 @@
 ---
 name: systemic-engineering
-description: Structure and execute software or general-system projects from stakeholder values through VFT, SSM, STPA, traceable requirements, project artifacts, and evidence-gated multi-agent delivery. Use for ambiguous or consequential projects that need rigorous discovery, safety analysis, requirements, PRDs/specs/tests, or supervised implementation; do not use for a trivial one-file change.
+description: Investigate and develop business, software and systems projects through Intake, VFT, SSM, STPA, evidence-led research, feasibility analysis, multi-agent experiments, traceable requirements and human-gated delivery. Use for consequential discovery, market or investment decisions, requirements and supervised implementation; not for a trivial one-file edit.
 metadata:
-  short-description: Value-driven systems engineering workflow
+  short-description: Evidence-led engineering and business decisions
 ---
 
 ## For future Claude
@@ -44,6 +44,24 @@ Load only the reference for the current phase:
 | `execution` or `closure` | [multi-agent-judge.md](references/multi-agent-judge.md) |
 
 For theoretical provenance or deeper RAG, use [source-map.md](references/source-map.md) and retrieve only the named source note.
+
+## Evidence-led consulting extension
+
+For business/consulting investigations, executable interviews, OSINT, decision comparison, experiments or client deliverables, read [consulting-workflow.md](references/consulting-workflow.md). Enable the optional module with `sef.py consult enable <project>` only in the intended project; existing projects remain compatible without it. Follow [scientific-method.md](references/scientific-method.md) for claim-level external provenance and [simulation-engines.md](references/simulation-engines.md) for engine selection, actual capability limits and authorization.
+
+Use `consult next` to drive progressive questions and research; perform available public research through the current harness, register concrete external evidence, author business-specific analyses and resolve contradictions. Internal templates and generated reports are not external proof. The client needs clear decisions, alternatives, charts, actions, owners and dates, with technical theory in annexes.
+
+Use the 22 [general document models](references/biblioteca-documental-generalista/INDICE.md) for applicable business documents. Generate both human outputs with `consult report`; inspect `consult quality` and interpret every persisted simulation. An empty template, engine smoke, completed process or structurally valid document is never a completed client study. Do not turn general recommendations from a template into facts.
+
+Method review, original phase approval, specific experiment execution and final client review remain different acts. New simulation grants are hash-bound and one-use; fixture approval cannot authorize a real external or costly run. Changes in consultation data participate in existing phase hashes. Without a terminal, prepare a reproducible executor packet and say that it was not executed.
+
+## Market, feasibility and multi-agent campaigns
+
+For launch, pricing, expansion or investment decisions, read [market-feasibility.md](references/market-feasibility.md) and [agent-experiments.md](references/agent-experiments.md). Connect demand and agent behavior to capacity and cash; separate operating result, liquidity and return on investment. Use explicit sources and assumptions for price response, discounting and payment delays.
+
+Distinguish repeated seeds, market conditions and alternative behavioral structures. Prepare `sim plan`, register the intended campaign with `sim campaign-register`, and use `sim campaign-next` to coordinate each case through existing method and execution approvals. Run `sim campaign-status` and `sim campaign-analyze`, interpret every result and regenerate both human outputs. Incomplete campaigns cannot support a final recommendation. Never infer a market-success probability from the proportion of grid scenarios that look favorable.
+
+The financial module is optional; enable it only with explicit inputs and explain excluded mechanisms. LLM personas are synthetic; demand evidence requires research or observation. Train ML/BDH only for a justified question with independent evaluation, preserving negative results.
 
 ## Interview contract
 

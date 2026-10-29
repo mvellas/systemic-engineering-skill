@@ -1,0 +1,7 @@
+Install the official upstream in a separate Python 3.12 environment:
+https://github.com/MatrAIx-ai/MatrAIx-Persona-8B
+Follow its locked quickstart and preserve its MIT license.
+The SEF adapter invokes the installed .venv/bin/matraix (or Windows equivalent).
+Survey/Chat smoke needs no provider key. Web/OS-app additionally needs Docker.
+No install, dataset download, API key, or external-provider run is automatic.
+See the skill's references/simulation-engines.md for the checked protocol and limits.

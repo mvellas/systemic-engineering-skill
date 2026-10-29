@@ -1,0 +1,106 @@
+{
+  "base_config": {
+    "engine": "agents",
+    "seed": 17,
+    "agents": 40,
+    "ticks": 6,
+    "trials": 100,
+    "timeout_seconds": 30,
+    "cost_limit": 0,
+    "success": {
+      "metric": "cash",
+      "threshold": 0
+    },
+    "scenarios": [
+      {
+        "id": "A",
+        "price": 20,
+        "variable_cost": 10,
+        "fixed_cost": 100,
+        "initial_cash": 200,
+        "market_size": 100,
+        "conversion": 0.03,
+        "churn": 0.1,
+        "capacity": 100,
+        "initial_customers": 0,
+        "acquisition_spend": 20,
+        "uncertainty": 0.01,
+        "unit": "unidade por cliente por período",
+        "currency": "BRL",
+        "period": "mês",
+        "source_ids": [
+          "SRC-1"
+        ]
+      }
+    ],
+    "sensitivity": [
+      {
+        "parameter": "price",
+        "values": [
+          15,
+          20,
+          25
+        ]
+      }
+    ]
+  },
+  "replicas_per_case": 100,
+  "factors": [
+    {
+      "parameter": "scenario.price",
+      "values": [
+        15,
+        20,
+        25
+      ],
+      "source_ids": [
+        "SRC-PRICE"
+      ],
+      "classification": "hypothesis",
+      "rationale": "Faixa ilustrativa; não observada no mercado.",
+      "role": "decision"
+    },
+    {
+      "parameter": "config.network_topology",
+      "values": [
+        "hybrid",
+        "ring",
+        "random"
+      ],
+      "source_ids": [
+        "SRC-NET"
+      ],
+      "classification": "hypothesis",
+      "rationale": "Estruturas alternativas, não redes observadas.",
+      "role": "structural"
+    },
+    {
+      "parameter": "scenario.conversion",
+      "values": [
+        0.01,
+        0.03,
+        0.06
+      ],
+      "source_ids": [
+        "SRC-HYPOTHESIS"
+      ],
+      "classification": "hypothesis",
+      "rationale": "Faixas hipotéticas de demanda; não estimativas observadas.",
+      "role": "uncertainty"
+    },
+    {
+      "parameter": "config.interaction_strength",
+      "values": [
+        0,
+        0.1,
+        0.25
+      ],
+      "source_ids": [
+        "SRC-HYPOTHESIS"
+      ],
+      "classification": "hypothesis",
+      "rationale": "Influência ausente, moderada ou maior; valores ilustrativos sem calibração.",
+      "role": "uncertainty"
+    }
+  ]
+}

@@ -1,0 +1,1453 @@
+{
+  "source_directory": "Corpus local de referência do usuário; originais não distribuídos.",
+  "review_date": "2026-10-28",
+  "pdf_count": 21,
+  "pdf_pages": 51,
+  "markdown_count": 1,
+  "method": {
+    "text_extraction": "PyMuPDF; todas as páginas",
+    "visual_review": "51 páginas em cinco pranchas de contato; ampliação adicional de jornada, ciclo de vida, PBS e estrutura institucional",
+    "ocr": "Tesseract eng, 18 páginas contendo tabelas ou diagramas rasterizados, retornos zero; confrontado com inspeção visual",
+    "external_verification": "Não realizada: o objetivo é estudar estrutura e estilo locais, não confirmar dados de mercado ou regras atuais do caso-fonte."
+  },
+  "files": [
+    {
+      "file": "DOC-01-fonte.pdf",
+      "sha256": "485bd8bf9faa31f0fb70328447b02fb814b1bf440cc8559b7275ecf64a777558",
+      "bytes": 265421,
+      "pages": 4,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 444
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 365
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 23
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 318
+        }
+      ]
+    },
+    {
+      "file": "DOC-02-fonte.pdf",
+      "sha256": "43b9e6eceb7a93f01ce55a7f8f73ca50cba70d772623b29d91850abbf20089e2",
+      "bytes": 57814,
+      "pages": 1,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri-Light",
+            "SymbolMT",
+            "TimesNewRomanPS-BoldMT"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1716
+        }
+      ]
+    },
+    {
+      "file": "DOC-03-fonte.pdf",
+      "sha256": "9dcfd9ef1b99c2d477d8edb2210eec77396c4469795c2fe477e4ac3de18c1340",
+      "bytes": 94975,
+      "pages": 2,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri-Light",
+            "CourierNewPSMT",
+            "SymbolMT",
+            "TimesNewRomanPS-BoldMT",
+            "Wingdings-Regular"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1978
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri-Light",
+            "CourierNewPSMT",
+            "SymbolMT",
+            "TimesNewRomanPS-BoldMT",
+            "TimesNewRomanPSMT",
+            "Wingdings-Regular"
+          ],
+          "sizes": [
+            10.0,
+            12.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1975
+        }
+      ]
+    },
+    {
+      "file": "DOC-04-fonte.pdf",
+      "sha256": "7f8fb3b449014f6a284d6c21383ff1aed3f9c0b305538200c0808cd78c9c147a",
+      "bytes": 243476,
+      "pages": 2,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            0.5,
+            8.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 6,
+          "drawings": 32,
+          "chars": 8757
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri"
+          ],
+          "sizes": [
+            0.5,
+            8.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 4,
+          "drawings": 47,
+          "chars": 4848
+        }
+      ]
+    },
+    {
+      "file": "DOC-05-fonte.pdf",
+      "sha256": "1123c1777e54d2c559df243efa9f39e92da92bf8b9f8a9f744fe74fde490b618",
+      "bytes": 195213,
+      "pages": 1,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 23
+        }
+      ]
+    },
+    {
+      "file": "DOC-06-fonte.pdf",
+      "sha256": "6629990ed7e818d0918476ba1d8a655d91d0ff848bff76c0aea79f675a12ecb3",
+      "bytes": 144507,
+      "pages": 3,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "Calibri-Light",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1728
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1874
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "Calibri-Light",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1701
+        }
+      ]
+    },
+    {
+      "file": "DOC-07-fonte.pdf",
+      "sha256": "c83b4ae99eeae0fd6cea6331db27adbf96cd05f90ae39fc20528a319a8bda86b",
+      "bytes": 139204,
+      "pages": 4,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1672
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            12.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1708
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            13.6
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1752
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1417
+        }
+      ]
+    },
+    {
+      "file": "DOC-08-fonte.pdf",
+      "sha256": "3d91caf8a35a4df743b6d91707f6b6bf1eb9b4dd6dffee4cbfc95b8c7e05f352",
+      "bytes": 138150,
+      "pages": 3,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 2157
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 2495
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 613
+        }
+      ]
+    },
+    {
+      "file": "DOC-09-fonte.pdf",
+      "sha256": "d6a965e4c5cbffe03c53d9263193c43985b156c2c4fe004f038ce8d3fcd5382c",
+      "bytes": 135477,
+      "pages": 3,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 1889
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 2464
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1512
+        }
+      ]
+    },
+    {
+      "file": "DOC-10-fonte.pdf",
+      "sha256": "221a06276981722ce60060c013c951bed03bc289dba465032508d0a931a6ea14",
+      "bytes": 152031,
+      "pages": 3,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 2650
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 2534
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 1618
+        }
+      ]
+    },
+    {
+      "file": "DOC-11-fonte.pdf",
+      "sha256": "0eea50c6a1ac31e05097e56162494294ce29217c5f583512e1d30e9c9d8b4515",
+      "bytes": 190399,
+      "pages": 2,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 109
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 2,
+          "drawings": 0,
+          "chars": 23
+        }
+      ]
+    },
+    {
+      "file": "DOC-12-fonte.pdf",
+      "sha256": "36587f774266532c8bf947e8506ecf6373e70ea581066c9f7e34ea0ec5a5016f",
+      "bytes": 129252,
+      "pages": 2,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 115
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 23
+        }
+      ]
+    },
+    {
+      "file": "DOC-13-fonte.pdf",
+      "sha256": "ea815604528bed4d3e958fecc1622991be36ab2a9c5010f8faca6c61e0ed1c2d",
+      "bytes": 132278,
+      "pages": 1,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 1597
+        }
+      ]
+    },
+    {
+      "file": "DOC-14-fonte.pdf",
+      "sha256": "0592eb36e4cbce1624258c5afc2d8d0cb3ed212163a0814e7769fa3db0d7a81c",
+      "bytes": 189756,
+      "pages": 2,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 563
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "CourierNewPSMT",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1960
+        }
+      ]
+    },
+    {
+      "file": "DOC-15-fonte.pdf",
+      "sha256": "98c2a6e3d9462358787a9a65f8666414a3a1bd94bee386cbee6f32e2bfc3d04a",
+      "bytes": 253396,
+      "pages": 3,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "CourierNewPSMT"
+          ],
+          "sizes": [
+            10.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1320
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            12.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 322
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri-BoldItalic"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0",
+            "0x2f5496"
+          ],
+          "images": 2,
+          "drawings": 0,
+          "chars": 23
+        }
+      ]
+    },
+    {
+      "file": "DOC-16-fonte.pdf",
+      "sha256": "4cdb5c625b53d43a799773b5dcba6c072a7845ca68d3d1dbd7bc3f6a1dbba2d2",
+      "bytes": 112038,
+      "pages": 2,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 45,
+          "chars": 4196
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 17,
+          "chars": 1883
+        }
+      ]
+    },
+    {
+      "file": "DOC-17-fonte.pdf",
+      "sha256": "ee6e1a1bf6de227334bcf1aa6b65ba8014dbd5f0d5c7994895fdcc8a0ad2b06a",
+      "bytes": 201738,
+      "pages": 3,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 2426
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "CourierNewPSMT",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 1490
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1533
+        }
+      ]
+    },
+    {
+      "file": "DOC-18-fonte.pdf",
+      "sha256": "a2fbfc6398db87b18fed62fc4db50518c56fb27a40e2be054e2a4c71c94d89a8",
+      "bytes": 132613,
+      "pages": 4,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 2218
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 13,
+          "chars": 1742
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 13,
+          "chars": 1865
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1160
+        }
+      ]
+    },
+    {
+      "file": "DOC-19-fonte.pdf",
+      "sha256": "0c472c404cf24730f8526fab51fc2df6900ce29a57adb545e998510d97041f9d",
+      "bytes": 21651,
+      "pages": 1,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "ArialMT"
+          ],
+          "sizes": [
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 16
+        }
+      ]
+    },
+    {
+      "file": "DOC-20-fonte.pdf",
+      "sha256": "4704943f3bc3f9c01bae84e1d5f18590a7d129ca666953d8ed26899e4b6105dc",
+      "bytes": 196769,
+      "pages": 2,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "Calibri"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            12.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 192
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            841.9199829101562,
+            595.3200073242188
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1678
+        }
+      ]
+    },
+    {
+      "file": "DOC-21-fonte.md",
+      "sha256": "3e536ab87714d3d1ea8a48c379afc00f58557f05e1b526a016f529458d7797c4",
+      "bytes": 35970
+    },
+    {
+      "file": "DOC-22-fonte.pdf",
+      "sha256": "89812fd64e69879c1ce90a25b16dfd56f9ffbaf3cfa091ed0619dd9d07298657",
+      "bytes": 143646,
+      "pages": 3,
+      "page_details": [
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0,
+            14.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 1,
+          "drawings": 0,
+          "chars": 2294
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 3158
+        },
+        {
+          "size": [
+            0.0,
+            0.0,
+            595.3200073242188,
+            841.9199829101562
+          ],
+          "fonts": [
+            "Arial-BoldMT",
+            "ArialMT",
+            "Calibri",
+            "Calibri-Bold",
+            "SymbolMT"
+          ],
+          "sizes": [
+            10.0,
+            11.0
+          ],
+          "colors": [
+            "0x0"
+          ],
+          "images": 0,
+          "drawings": 0,
+          "chars": 1029
+        }
+      ]
+    }
+  ]
+}
