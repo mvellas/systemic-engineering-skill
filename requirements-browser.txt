@@ -1,2 +1,0 @@
-# Optional public screenshots / local report verification.
-playwright>=1.50,<2

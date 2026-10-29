@@ -1,3 +1,0 @@
-# Optional official BDH executor; use a separate environment matching available wheels.
-numpy>=1.26,<3
-torch>=2.2,<3

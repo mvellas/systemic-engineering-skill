@@ -2,86 +2,11 @@
 
 ![Systemic Engineering: from vague idea to structured plan](assets/systemic-engineering-cover.png)
 
-> **EN:** An agent skill that turns an ambiguous software or systems project into traceable evidence and controlled execution: Value-Focused Thinking (VFT) → Soft Systems Methodology (SSM) → STPA (7-step LLM-assisted roadmap) → requirements scored with Halligan's quality metrics → planning artifacts, with human gates, hard/soft blockers and an audit trail. Standard-library Python only. **Version 3.0.**
+> **EN:** An agent skill that turns an ambiguous software or systems project into traceable evidence and controlled execution: Value-Focused Thinking (VFT) → Soft Systems Methodology (SSM) → STPA (7-step LLM-assisted roadmap) → requirements scored with Halligan's quality metrics → planning artifacts, with human gates, hard/soft blockers and an audit trail. Standard-library Python only. **Version 2.1.**
 
 **Autores:** Mauricio Vellasquez, Ícaro Veloso e Guilherme Thiago.
 
 ---
-
-## Evolução para investigação e consultoria orientada por dados
-
-A extensão preserva a cadeia Intake → VFT → SSM → reconciliação → STPA → requisitos → planejamento → execução → encerramento e acrescenta módulos opcionais à CLI existente. O core continua sem dependências externas.
-
-- Entrevistas progressivas com respostas tipadas, acompanhamento, conflitos e matrizes rastreáveis.
-- Pesquisa/OSINT com fontes externas, trechos, URLs, datas, confiança, independência e capturas autorizadas.
-- Comparação multicritério com pesos declarados, veto e sensibilidade, sem decisão automática.
-- Monte Carlo, agentes, estoques/fluxos, propagação de falhas, MCMC e aprendizado supervisionado com corte temporal.
-- Adapters opcionais reais para OASIS, MatrAIx e BDH experimental; sem instalação ou uso pago implícitos.
-- Campanhas multiagente com planejamento fatorial, acompanhamento e comparação de robustez; nenhuma autorização em lote implícita.
-- Camada financeira opcional: investimento inicial, CAPEX, prazos de caixa, dedução explícita sobre receita, VPL e necessidade de capital.
-- 22 modelos generalistas e geração coordenada de relatório e dashboard HTML com fontes, cenários, plano de ação e anexos.
-
-[Validação e limites](docs/VALIDATION.md) · [Auditoria e arquitetura](docs/EVOLUTION-PLAN.md) · [Guia completo do agente](.agents/skills/systemic-engineering/references/consulting-workflow.md) · [Fontes científicas e limites](.agents/skills/systemic-engineering/references/scientific-method.md) · [Contratos de simulação](.agents/skills/systemic-engineering/references/simulation-engines.md)
-
-### Mercado e viabilidade com agentes
-
-O agente conduz o estudo a partir de [market-feasibility.md](.agents/skills/systemic-engineering/references/market-feasibility.md). Selecione os mecanismos necessários à decisão, fundamente as entradas e mantenha separados resultado operacional, caixa e retorno do investimento. O modelo de referência não implementa automaticamente estoque, financiamento ou legislação tributária.
-
-```bash
-SEF=.agents/skills/systemic-engineering/scripts/sef.py
-python3 "$SEF" sim plan --config examples/agent-experiment-plan.json
-python3 "$SEF" sim campaign-register ./meu-projeto --config plano-fundamentado.json
-python3 "$SEF" sim campaign-next ./meu-projeto --campaign-id CAM-ID
-python3 "$SEF" sim campaign-status ./meu-projeto --campaign-id CAM-ID
-python3 "$SEF" sim campaign-analyze ./meu-projeto --campaign-id CAM-ID
-```
-
-Entre `campaign-next` e a execução, o agente salva a configuração retornada, executa preflight e obtém as aprovações metodológica e de execução específicas. Registrar plano não autoriza simular. Não usar os identificadores demonstrativos de fonte como evidência de mercado.
-
-Exemplo completo e explicitamente sintético, em diretório novo:
-
-```bash
-python3 examples/run_example.py --kind business --viability --output examples/output/meu-exemplo
-```
-
-Esse exemplo executa os dois experimentos locais originais e quatro casos de uma campanha financeira pequena com autorizações de teste. O plano de 81 combinações permanece um exemplo de preparação, sem execução implícita. Todas as saídas são hipóteses/demonstrações, nunca aprovação real de cliente.
-
-### Começar
-
-No agente: **Use $systemic-engineering para investigar minha ideia, questionar premissas, pesquisar evidências externas e preparar alternativas e um relatório para decisão.**
-
-```bash
-SEF=.agents/skills/systemic-engineering/scripts/sef.py
-python3 "$SEF" init ./meu-projeto --name "Minha ideia"
-python3 "$SEF" consult enable ./meu-projeto
-python3 "$SEF" consult next ./meu-projeto
-python3 "$SEF" sim capabilities
-python3 "$SEF" sim select --problem uncertainty
-```
-
-O agente traduz os dados estruturados para perguntas e recomendações claras; o empresário não precisa coordenar as ferramentas. Havendo estado existente, começar por `status` e não repetir `init`. A pessoa responsável continua aprovando cada fase e cada execução consequencial.
-
-### Exemplos completos e reproduzíveis
-
-```bash
-python3 examples/run_example.py --kind business --output ./examples/output/business
-python3 examples/run_example.py --kind software --output ./examples/output/software
-python3 examples/run_example.py --kind critical --output ./examples/output/critical
-python3 -m unittest discover -s tests -v
-```
-
-As fixtures de negócio/software percorrem a cadeia com aprovações **fictícias rotuladas**, dados sintéticos e testes locais gratuitos; geram estudo, comparação, duas execuções, interpretação, relatório e dashboard. A fixture crítica para no gate STPA sem especialista/autoridade de segurança, como deve acontecer; não há teste físico. Os exemplos não são estudos de mercado nem aceites de projeto real. O JSON final de cada comando informa os caminhos dos produtos. Diretórios existentes nunca são sobrescritos.
-
-### Dependências e instalação opcional
-
-Python 3.10+ executa a CLI core diretamente, em Claude Code, Codex, Antigravity ou outro terminal compatível. Copiar a pasta inteira da skill preserva seus recursos relativos. Para extras, use ambientes isolados: `python3 -m venv .venv-ml` e `pip install -r requirements-ml.txt`; para captura visual, `pip install -r requirements-browser.txt` e `python -m playwright install chromium`. Não instalar extras para usar gates e entrevistas.
-
-BDH requer PyTorch compatível, código oficial identificado por SHA256 e licença; não inclui pesos prontos de previsão comercial. OASIS usa `adapters/oasis/requirements.txt` em Python 3.10/3.11; MatrAIx segue o quickstart oficial em Python 3.12 e seu runtime separado. `sim capabilities` identifica instalações locais candidatas; a configuração confirma o executor. A disponibilidade de dependência não demonstra disponibilidade de modelo, Docker ativo, adequação científica ou autorização de custo.
-
-`sim preflight` apenas estima. `sim authorize --kind method` registra revisão metodológica; `--kind execution` registra autorização específica de uso único. Só então `sim run --grant GRANT-ID` executa. Não usar esses comandos para fabricar anuência humana. Sem terminal, preparar `consult bundle`; o pacote não afirma ter sido executado.
-
-Limites desta implementação: modelo econômico de referência tem caixa operacional simplificado, sem contabilidade fiscal implícita; MCMC usa diagnóstico preliminar; BDH é adaptação experimental; OASIS comportamental está limitado a LLM local, pois não há teto rígido de cobrança de API nesse adapter. MatrAIx usa o teto da CLI upstream. As saídas são condicionais aos dados/modelos e nunca probabilidades comerciais calibradas por construção.
-
 
 ## Sumário
 
@@ -252,7 +177,7 @@ tests/test_sef.py               # suíte de testes da skill
 python3 -m unittest discover -s tests
 ```
 
-**Baseline histórica (v2.1): 46 testes, todos passando** (aprox. 2 minutos). A suíte cobre, entre outros:
+**Resultado mais recente (v2.1): 46 testes, todos passando** (aprox. 2 minutos). A suíte cobre, entre outros:
 
 - máquina de estados, fases, hashes de artefatos e aprovações por autoridade registrada;
 - política hard/soft de bloqueios, `--acknowledge-warnings` e registro no histórico;
@@ -326,10 +251,8 @@ Os trabalhos sobre juízes e debate sustentam o uso experimental, mas também re
 
 ## Como citar
 
-> Vellasquez, M.; Veloso, Í.; Thiago, G. *Systemic Engineering Skill* (versão 3.0). 2026. Repositório GitHub.
+> Vellasquez, M.; Veloso, Í.; Thiago, G. *Systemic Engineering Skill* (versão 2.1). 2026. Repositório GitHub.
 
 ## Licença
 
 A licença ainda será definida pelos autores. Até lá, nenhum direito de uso, cópia ou redistribuição além do permitido pelos termos da plataforma é concedido.
-
-Para desenhar cenários multiagente sem executá-los: `python3 .agents/skills/systemic-engineering/scripts/sef.py sim plan --config examples/agent-experiment-plan.json`. Veja [experimentos de viabilidade com agentes](.agents/skills/systemic-engineering/references/agent-experiments.md). O exemplo prepara 81 configurações e 8.100 trajetórias; não constitui execução nem aprovação.

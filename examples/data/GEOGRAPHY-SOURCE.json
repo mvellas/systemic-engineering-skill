@@ -1,7 +1,0 @@
-{
-  "source": "IBGE API Malhas v3",
-  "documentation": "https://servicodados.ibge.gov.br/api/docs/malhas?versao=3",
-  "geometry": "br-uf.geojson",
-  "provenance": "Local official-geometry asset reused from the owner's Disruptive Venture Lab, with original geographic codes; no market values are observed.",
-  "use": "Example geometry only; regional populations and adoption rates in the fixture are explicit hypotheses."
-}
