@@ -1,0 +1,3 @@
+# Optional skill validation and Chromium DevTools checks; unittest itself needs no extra.
+PyYAML>=6,<7
+websockets>=14,<17

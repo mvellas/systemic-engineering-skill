@@ -1,0 +1,2 @@
+# Separate Python 3.10/3.11 environment; do not install into the core environment.
+camel-oasis==0.2.5
