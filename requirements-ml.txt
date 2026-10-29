@@ -1,2 +1,0 @@
-# Optional local supervised baseline. Core SEF uses only the standard library.
-numpy>=1.26,<3

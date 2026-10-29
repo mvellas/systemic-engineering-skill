@@ -2,9 +2,3 @@ __pycache__/
 *.pyc
 .DS_Store
 .systemic-engineering/
-log/
-.evidence/
-examples/output/
-.venv*/
-.env*
-.secrets/

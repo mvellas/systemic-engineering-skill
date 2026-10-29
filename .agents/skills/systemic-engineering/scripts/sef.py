@@ -407,9 +407,6 @@ def artifact_hashes(project: Path, phase: str) -> dict[str, str]:
                         path = root / relative
                         if path.is_file():
                             result[relative] = hashlib.sha256(path.read_bytes()).hexdigest()
-    consulting = root / "08-consulting/model.json"
-    if consulting.is_file():
-        result["08-consulting/model.json"] = hashlib.sha256(consulting.read_bytes()).hexdigest()
     path = state_path(project)
     if path.exists():
         state = json.loads(path.read_text(encoding="utf-8"))
@@ -648,12 +645,6 @@ def assess_gate(project: Path, state: dict, phase: str) -> dict:
     per_phase = validate_reached(project, phase)
     errors = [f"{name}:{error}" for name, values in per_phase.items() for error in values]
     errors.extend(gate_context_errors(state))
-    if (control_dir(project) / "08-consulting/model.json").is_file():
-        from sef_runtime import store as consulting_store
-        try:
-            consulting_store.integrity(project)
-        except (ValueError, OSError) as error:
-            errors.append("consulting-integrity:" + type(error).__name__)
     errors.extend(traceability_errors(project, phase)[0])
     missing = missing_roles(project, state, phase)
     execution = execution_blockers(project, state, phase)
@@ -790,12 +781,6 @@ def command_validate(args: argparse.Namespace) -> int:
     per_phase = validate_reached(project, state["phase"])
     errors = [f"{phase}:{error}" for phase, values in per_phase.items() for error in values]
     errors.extend(gate_context_errors(state))
-    if (control_dir(project) / "08-consulting/model.json").is_file():
-        from sef_runtime import store as consulting_store
-        try:
-            consulting_store.integrity(project)
-        except (ValueError, OSError) as error:
-            errors.append("consulting-integrity:" + type(error).__name__)
     trace_errors, trace_result = traceability_errors(project, state["phase"])
     errors.extend(trace_errors)
     execution = execution_blockers(project, state, state["phase"])
@@ -1010,8 +995,6 @@ def parser() -> argparse.ArgumentParser:
     pending = commands.add_parser("pending"); pending.add_argument("project"); pending.add_argument("--json", action="store_true"); pending.add_argument("--write", action="store_true"); pending.set_defaults(func=command_pending)
     reopen = commands.add_parser("reopen"); reopen.add_argument("project"); reopen.add_argument("--phase", required=True); reopen.add_argument("--by", required=True); reopen.add_argument("--by-role", default=None); reopen.add_argument("--reason", required=True); reopen.set_defaults(func=command_reopen)
     module = commands.add_parser("create-module"); module.add_argument("project"); module.add_argument("--id", dest="module_id", required=True); module.add_argument("--name", required=True); module.add_argument("--path", required=True); module.add_argument("--rationale", required=True); module.add_argument("--material", action=argparse.BooleanOptionalAction, default=True); module.set_defaults(func=command_create_module)
-    from sef_runtime.cli import attach
-    attach(commands)
     return root
 
 

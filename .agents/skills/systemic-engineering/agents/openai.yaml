@@ -1,7 +1,7 @@
 interface:
   display_name: "Systemic Engineering"
-  short_description: "Engineering, market evidence, simulation and decisions"
-  default_prompt: "Use $systemic-engineering to investigate this idea, interview stakeholders, research evidence, compare strategies and prepare a clear decision report. Preserve human gates and obtain specific authorization before simulations or external execution."
+  short_description: "VFT, SSM, STPA, requirements, and delivery"
+  default_prompt: "Use $systemic-engineering to structure this project from stakeholder values through approved, traceable execution."
 
 policy:
   allow_implicit_invocation: true
